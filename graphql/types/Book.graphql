@@ -1,0 +1,19 @@
+
+type Book {
+    url: String,
+    name: String,
+    isbn: String,
+    authors: [String],
+    numberOfPages: Int,
+    publisher: String,
+    country: Boolean,
+    mediaType: String,
+    released: String,
+    characters: [String],
+    povCharacters: [String],
+}
+
+type Query {
+    books: [Book],
+    book: Book
+}

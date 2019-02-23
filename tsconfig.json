@@ -1,0 +1,12 @@
+{
+  "exclude": ["node_modules", "./tests/*"],
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "resolveJsonModule": true,
+    "target": "es6",
+    "typeRoots": ["./node_modules/@types"],
+  }
+}
